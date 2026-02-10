@@ -1,3 +1,5 @@
+```java
+
 import java.util.ArrayList;
 
 
@@ -150,3 +152,5 @@ class PetHotel {
         System.out.println("--- End of Day Report ---");
     }
 }
+
+```
