@@ -1,0 +1,95 @@
+```java
+
+import java.util.ArrayList;
+
+// create Animal class to be the basis for individual animal classes
+class Animal {
+    int age;
+    String name;
+
+    public Animal() {
+        age = 0;
+        name = "";
+    }
+
+    public void makeSound() {
+        System.out.println("Animal makes a sound");
+    }
+
+    public void getDescription() {
+        System.out.println("This is a generic animal");
+    }
+}
+// create the Lion class that extends Animal
+class Lion extends Animal {
+    public Lion(int i, String x) {
+        age = i;
+        name = x;
+    }
+
+    @Override
+    public void makeSound() {
+        System.out.println("Roar!");
+    }
+
+    @Override
+    public void getDescription() {
+        System.out.println("The lion is the king of the jungle");
+    }
+}
+// create the Elephant class that extends Animal
+class Elephant extends Animal {
+    public Elephant(int j, String y) {
+        age = j;
+        name = y;
+    }
+
+    @Override
+    public void makeSound() {
+        System.out.println("Trumpet!");
+    }
+
+    @Override
+    public void getDescription() {
+        System.out.println("Elephants are the largest land animals");
+    }
+}
+
+// create the Parrot class that extends Animal
+class Parrot extends Animal {
+    public Parrot(int k, String z) {
+        age = k;
+        name = z;
+    }
+
+    @Override
+    public void makeSound() {
+        System.out.println("Squawk!");
+    }
+
+    @Override
+    public void getDescription() {
+        System.out.println("Parrots can mimic human speech");
+    }
+}
+
+//example usage of the classes
+public class zoo {
+    public static void main(String[] args) {
+
+        ArrayList<Animal> safari = new ArrayList<>();
+
+        safari.add(new Lion(5, "Leo"));
+        safari.add(new Elephant(8, "Ellie"));
+        safari.add(new Parrot(2, "Polly"));
+
+        for (Animal a : safari) {
+            System.out.println("Name: " + a.name + ", Age: " + a.age);
+            a.makeSound();
+            a.getDescription();
+            System.out.println();
+        }
+    }
+}
+
+```
