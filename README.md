@@ -2,10 +2,10 @@
 This repository consists of two different homework assignments with similar goals of creating classes to log information about zoo animals.
 
 
-**#Part-1**
+## Part 1: Zoo information kiosk
 
 
-The first section creates animal classes that store the sound an animal makes and an interesting fact or statement about the animal. The example creates objects from these classes and then outputs the individual animals' name, age, sound they make, and fact about them, as if it were on a display at a zoo. This is the example output from the lion, parrot, and elephant:
+The first section simulates an information kiosk at a zoo. The program creates animal classes that store the sound an animal makes and an interesting fact or statement about the animal. The example creates objects from these classes and then outputs the individual animals' name, age, sound they make, and fact about them, as if it were on a display at a zoo. This is the example output for a lion, parrot, and elephant:
 
 Name: Leo, Age: 5
 
@@ -28,9 +28,9 @@ Squawk!
 Parrots can mimic human speech
 
 
-**Part-2**
+## Part 2: Animal Shelter
 
-The second section simulates an information center for an arbitrary pet hotel. It takes animals as data points along with each idividual animal's name, species, age, cost of boarding, sound they make, description of how they eat, description of their favorite trick, and how they go to sleep. The method then outputs all of the information on each animal in the shelter. This is the example output for a dog, a cat, and a parrot.
+The second section simulates an information center for an arbitrary pet hotel or animal shelter. The program creates animal classes with distinct descriptions for each species of cost of boarding, sound they make, how they eat, favorite trick, and how they go to sleep. The example then takes individual animals as data points along with each idividual animal's name, species, and age. The method then outputs all of the information on each animal in the shelter. This is the example output for a dog, a cat, and a parrot:
 
 
 Dog (Buddy, Age 3)
