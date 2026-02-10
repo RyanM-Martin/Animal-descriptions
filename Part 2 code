@@ -138,6 +138,7 @@ class PetHotel {
 
             a.special();
             a.sleep();
+            System.out.print("");
         }
 
         System.out.println("--- Boarding Cost Summary ---");
