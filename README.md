@@ -10,28 +10,48 @@ The second part simulates an information center for an arbitrary pet hotel. It t
 
 
 Dog (Buddy, Age 3)
+
 Buddy barks loudly!
+
 Buddy eats kibble happily.
+
 Buddy performs a trained trick and rolls over
+
 Buddy fetches a toy
+
 Buddy goes to sleep.
 
+
 Cat (Misty, Age 2)
+
 Misty meows softly
+
 Misty eats kibble with elegance
+
 Misty engages in her special behavior and scratches the post
+
 Misty curls up and goes to sleep
 
+
 Parrot (Polly, Age 5)
+
 Polly squawks brightly
+
 Polly pecks at the kibble
+
 Polly performs her special behavior: mimics a phrase
+
 Polly tucks her head and goes to sleep
 
+
 --- Boarding Cost Summary ---
+
 Buddy daily cost: $30
+
 Misty daily cost: $25
+
 Polly daily cost: $20
+
 Total Daily Boarding Cost: $75.0
 
 --- End of Day Report ---
