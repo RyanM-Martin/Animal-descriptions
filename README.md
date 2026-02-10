@@ -89,15 +89,13 @@ Name: Leo, Age: 5
 Roar!
 
 The lion is the king of the jungle
-
-
+    
 Name: Ellie, Age: 8
 
 Trumpet!
 
 Elephants are the largest land animals
-
-
+    	
 Name: Polly, Age: 2
 
 Squawk!
