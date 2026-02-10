@@ -105,7 +105,117 @@ Parrots can mimic human speech
 
 ## Part 2: Animal Shelter
 
-The second section simulates an information center for an arbitrary pet hotel or animal shelter. The program creates animal classes with distinct descriptions for each species of cost of boarding, sound they make, how they eat, favorite trick, and how they go to sleep. The example then takes individual animals as data points along with each idividual animal's name, species, and age. The method then outputs all of the information on each animal in the shelter. This is the example output for a dog, a cat, and a parrot:
+The second section simulates an information center for an arbitrary pet hotel or animal shelter. The program creates animal classes, as shown in the code below, with distinct descriptions for each species' cost of boarding, sound they make, how they eat, favorite trick, and how they go to sleep. 
+```java
+interface Pet {
+    void sound();
+    void food();
+    int board();
+}
+
+interface Train {
+    void trick();
+}
+
+abstract class Animal implements Pet {
+    int age;
+    String name;
+
+    Animal() {
+    }
+
+    int getAge() {
+        return age;
+    }
+
+    String getName() {
+        return name;
+    }
+
+    public void sleep() {
+        System.out.println(name + " goes to sleep.");
+    }
+
+    abstract void special();
+}
+class Dog extends Animal implements Train {
+    Dog(int x, String a) {
+        age = x;
+        name = a;
+    }
+
+    public void sound() {
+        System.out.println(name + " barks loudly!");
+    }
+
+    public void food() {
+        System.out.println(name + " eats kibble happily.");
+    }
+
+    public int board() {
+        return 30;
+    }
+
+    public void trick() {
+        System.out.println(name + " performs a trained trick and rolls over");
+    }
+
+    void special() {
+        System.out.println(name + " fetches a toy");
+    }
+}
+class Cat extends Animal {
+    Cat(int x, String a) {
+        age = x;
+        name = a;
+    }
+
+    public void sound() {
+        System.out.println(name + " meows softly");
+    }
+    public void food() {
+        System.out.println(name + " eats kibble with elegance");
+    }
+    public int board() {
+        return 25;
+    }
+    void special() {
+        System.out.println(name + " engages in her special behavior and scratches the post");
+    }
+
+    public void sleep() {
+        System.out.println(name + " curls up and goes to sleep");
+    }
+}
+class Parrot extends Animal {
+    Parrot(int x, String a) {
+        age = x;
+        name = a;
+    }
+
+    public void sound() {
+        System.out.println(name + " squawks brightly");
+    }
+
+    public void food() {
+        System.out.println(name + " pecks at the kibble");
+    }
+
+    public int board() {
+        return 20;
+    }
+
+    void special() {
+        System.out.println(name + " performs her special behavior: mimics a phrase");
+    }
+
+    public void sleep() {
+        System.out.println(name + " tucks her head and goes to sleep");
+    }
+}
+```
+
+The example then takes individual animals as data points along with each idividual animal's name, species, and age. The method then outputs all of the information on each animal in the shelter. This is the example output for a dog, a cat, and a parrot:
 
 
 Dog (Buddy, Age 3)
