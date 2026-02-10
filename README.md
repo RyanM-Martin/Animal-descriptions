@@ -5,6 +5,7 @@ This repository consists of two different homework assignments with similar goal
 The 
 
 Part 2
+
 The second part simulates an information center for an arbitrary pet hotel. It takes animals as data points along with each idividual animal's name, species, age, cost of boarding, sound they make, description of how they eat, description of their favorite trick, and how they go to sleep. The method then outputs all of the information on each animal in the shelter. This is the example output for a dog, a cat, and a parrot.
 
 
