@@ -1,7 +1,7 @@
 # Animal-descriptions
 This repository consists of two different homework assignments with similar goals of creating classes to log information about zoo animals.
 
-#Part 1
+Part 1
 
 
 The first section creates animal classes that store the sound an animal makes and an interesting fact or statement about the animal. The example creates objects from these classes and then outputs the individual animals' name, age, sound they make, and fact about them, as if it were on a display at a zoo. This is the example output from the lion, parrot, and elephant:
